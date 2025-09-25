@@ -21,8 +21,8 @@ void InputHandler::keyboard(unsigned char key, int x, int y, Game& game) {
                 std::string level = game.getCurrentLevel();
                 Maze::getInstance().loadFromImage("../LabyrinthProject/" + level);
                 if (!Maze::getInstance().getWalls().empty()) {
-                    Renderer::loadTexture("../LabyrinthProject/wall_texture.png", Renderer::wallTexture);
-                    Renderer::loadTexture("../LabyrinthProject/floor_texture.png", Renderer::floorTexture);
+                    Renderer::loadTexture("../wall_texture.png", Renderer::wallTexture);
+                    Renderer::loadTexture("../floor_texture.png", Renderer::floorTexture);
                     game.setActiveMessage(-1);
                     game.setMiniMapShown(false);
                     Maze::getInstance().resetPlayerPosition();

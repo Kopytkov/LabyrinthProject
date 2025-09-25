@@ -2,7 +2,7 @@
 #include "Maze.h"
 #include "Player.h"
 #include <cmath>
-#include "C:\LabyrinthProject\include\stb_image.h"
+#include "..\include\stb_image.h"
 
 GLuint Renderer::wallTexture = 0;
 GLuint Renderer::floorTexture = 0;

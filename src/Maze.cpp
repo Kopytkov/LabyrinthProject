@@ -7,7 +7,7 @@
 #include <cstring>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "C:\LabyrinthProject\include\stb_image.h"
+#include "..\include\stb_image.h"
 
 // Структуры для WAD-формата
 struct WADHeader {

@@ -2,7 +2,7 @@
 #define RENDERER_H
 
 #include <GL/freeglut.h>
-#include <string>  // Добавлено
+#include <string>
 #include "Game.h"
 
 class Renderer {
